@@ -1,0 +1,39 @@
+$titleFmaily: 'Comfortaa';
+$txtFamily: 'Inter';
+
+// Size
+$tiny: 10px;
+$small: 11px;
+$medium: 13px;
+$large: 14px;
+$xlarge: 16px;
+$xxlarge: 36px;
+$xxxlarge: 48px;
+
+h1,h2,h3,h4,h5 {
+  font-family: $titleFmaily;
+  font-weight: 700;
+  color: $atpink;
+}
+
+h1 {
+  font-size: $xxxlarge;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: $xxlarge;
+}
+
+h4 {
+  font-size: $large;
+  color: $atblue;
+}
+
+p, li, a {
+  font-family: $txtFamily;
+  font-size: $medium;
+  font-weight: 500;
+  color: $atgray;
+}

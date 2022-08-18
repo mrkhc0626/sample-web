@@ -1,0 +1,55 @@
+.mint-page {
+  height: 100%;
+  padding-top: $xxl;
+  z-index: 5;
+
+  .left-row {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    padding-bottom: $xxl;
+
+    p {
+      margin-top: $l;
+      width: 600px;
+      line-height: 24px;
+    }
+
+    button {
+      margin-top: $l;
+    }
+
+    .mint-num {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
+			margin-top: 20px;
+			button {
+				width: 30px;
+				height: 30px;
+				padding: 0px;
+        margin-top: 0;
+			}
+			.mint-num-box {
+				padding: 0 20px;
+			}
+		}
+  }
+
+  .right-row {
+    width: 200px;
+    height: 100%;
+    position: relative;
+
+    .at-bird-pink {
+      width: 80vw;
+      position: fixed;
+      right: -40px;
+      bottom: 0;
+    }
+  }
+
+}
